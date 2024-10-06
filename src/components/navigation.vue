@@ -11,16 +11,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="Toggler">
         <ul class="navbar-nav align-items-end">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Projekte</router-link>
+            <router-link class="nav-link" to="/projects">Projekte</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/employee">Tutorial</router-link>
+            <router-link class="nav-link" to="/tutorial">Tutorial</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/customer">Über uns</router-link>
+            <router-link class="nav-link" to="/info">Über uns</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/location">Kontakt</router-link>
+            <router-link class="nav-link" to="/contact">Kontakt</router-link>
           </li>
         </ul>
       </div>
