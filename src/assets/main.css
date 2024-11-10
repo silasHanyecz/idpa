@@ -1,0 +1,7 @@
+#app {
+    background-image: url("/img/backgroundpicture.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
