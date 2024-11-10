@@ -1,10 +1,10 @@
 <script setup>
 </script>
 
-<template>
-<h1 class="text-center m-3">EHB - Film works</h1>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-    <div class="container">
+<template >
+<h1 class="text-center p-3" style="background-color: #474747">EHB - Film works</h1>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" >
+    <div class="container" style="background-color: #8A4E4E">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Toggler"
               aria-controls="Toggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

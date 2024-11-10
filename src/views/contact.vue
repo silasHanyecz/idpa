@@ -11,17 +11,18 @@
           </div>
           <div class="mb-3">
             <label for="inputComment" class="form-label">Kommentar</label>
-            <textarea class="form-control" id="inputComment" rows="6" cols="50"/>
+            <textarea class="form-control" id="inputComment" rows="7" cols="50"/>
           </div>
           <button type="submit" class="btn btn-primary">Absenden</button>
         </form>
       </div>
-      <div class="col-sm p-4 position-relative ">
-        <div class="p-3" style="position: absolute; top: 10px; right: 10px;background-color: #b1bde7; border-radius: 10px;">
-          <p>Sebastian Ebner</p>
-          <p>sebastian.ebner@bbzsogr.ch</p>
+      <div class="col-sm d-flex flex-column align-items-end">
+        <div style="background-color: #c0bebe" class="pe-4 ps-4">
+          <p>EHB - Film works</p>
+          <p>ehb@gmail.com</p>
           <p>+41 78 187 33 33</p>
         </div>
+        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.2778646583865!2d7.537453376370382!3d47.205339571155875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791d7fc1c849875%3A0x883a29fdb0709207!2sGewerblich-industrielle%20Berufsschule%20Solothurn!5e1!3m2!1sde!2sch!4v1731245568202!5m2!1sde!2sch" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
     </div>
