@@ -1,8 +1,11 @@
 <template>
-  <div class="container " style="min-height: 250vh">
-    <video controls loop autoplay muted class="w-100">
-      <source src="/img/golfvideoTest.mp4" type="video/mp4">
-    </video>
+  <div class="container">
+    <div >
+      <video controls loop autoplay muted class="w-100 pt-5" >
+        <source src="/img/golfvideoTest.mp4" type="video/mp4">
+      </video>
+    </div>
+
     <h2 class="text-center">Die Idee hinter EHB - Film works</h2>
     <p class="text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
       invidunt ut labore et
@@ -40,8 +43,10 @@
       </div>
     </div>
   </div>
+    <Contact></Contact>
   </div>
 </template>
 <script setup>
 import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
+import Contact from "@/views/contact.vue";
 </script>
