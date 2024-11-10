@@ -17,8 +17,8 @@
         </form>
       </div>
       <div class="col-sm d-flex flex-column align-items-end">
-        <div style="background-color: #c0bebe" class="pe-4 ps-4">
-          <p>EHB - Film works</p>
+        <div class="pe-4 ps-4">
+          <p style="opacity: 1">EHB - Film works</p>
           <p>ehb@gmail.com</p>
           <p>+41 78 187 33 33</p>
         </div>

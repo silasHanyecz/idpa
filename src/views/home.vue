@@ -1,8 +1,9 @@
 <template>
   <div class="container">
     <div >
-      <video controls loop autoplay muted class="w-100 pt-5" >
+      <video loop autoplay muted class="w-100 pt-5" >
         <source src="/img/golfvideoTest.mp4" type="video/mp4">
+        <source src="/img/golfvideoTest.webm" type="video/webm">
       </video>
     </div>
 
@@ -15,7 +16,7 @@
       voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
       sanctus est Lorem ipsum dolor sit amet.</p>
     <div class="d-flex justify-content-center">
-      <video controls loop autoplay muted class="w-75">
+      <video loop autoplay muted class="w-75">
         <source src="/img/demoVideoHomePage.mp4" type="video/mp4">
       </video>
     </div>
