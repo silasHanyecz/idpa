@@ -18,3 +18,9 @@
     -webkit-filter: blur(4px);
     z-index: -1;
 }
+
+.offerbox{
+    height: 450px;
+    width: 300px;
+    background-color: #000;;
+}
