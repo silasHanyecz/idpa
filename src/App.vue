@@ -10,12 +10,9 @@ import Footer from "@/components/footer.vue";
     <Navigation></Navigation>
   </header>
   <RouterView/>
-  <footer>
+  <footer style="margin-top: 70px">
     <Footer></Footer>
   </footer>
-<!--
-  <footer class="col-12 text-center fixed-bottom bg-body border-top py-3">Silas Hanyecz</footer>
--->
 </template>
 
 
