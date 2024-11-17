@@ -1,49 +1,136 @@
 <template>
+  <div class="video-wrapper mb-5">
+    <video loop autoplay muted class="backgroundVideo">
+      <source src="/img/homevideo.mp4" type="video/mp4">
+    </video>
+    <div class="text-overlay">
+      <h1 style="font-size: 70px">Turn Ideas into Action</h1>
+      <h2 style="font-size: 40px">Time is limited</h2>
+    </div>
+
+  </div>
+
   <div class="container">
-    <div >
-      <video loop autoplay muted class="w-100 pt-5" >
+
+    <div class="w-75 ms-3" style="margin-top: 100px">
+      <h2 class="text-start mb-3">Die Idee hinter EHB - Film works</h2>
+      <p class="text-start">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita
+        kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+        sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+        sanctus est Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div style="margin-top: 100px">
+      <h2 class="ms-3">Angebot</h2>
+      <section class="hero-section mt-4">
+        <div class="card-grid">
+          <a class="card" href="#">
+            <div class="card__background"
+                 style="background-image: url('img/efficiency.jpg')"></div>
+            <div class="card__content">
+              <p class="card__category">EHB-Filmworks</p>
+              <h3 class="card__heading">Effizienz</h3>
+            </div>
+          </a>
+          <a class="card" href="#">
+            <div class="card__background"
+                 style="background-image: url('img/upToDate.jpg')"></div>
+            <div class="card__content">
+              <p class="card__category">EHB-Filmworks</p>
+              <h3 class="card__heading">Up-To-Date</h3>
+            </div>
+          </a>
+          <a class="card" href="#">
+            <div class="card__background"
+                 style="background-image: url('img/personal.jpg')"></div>
+            <div class="card__content">
+              <p class="card__category">EHB-Filmworks</p>
+              <h3 class="card__heading">Persönlich</h3>
+            </div>
+          </a>
+          <a class="card" href="#">
+            <div class="card__background"
+                 style="background-image: url('img/motivated.jpg')"></div>
+            <div class="card__content">
+              <p class="card__category">EHB-Filmworks</p>
+              <h3 class="card__heading">Motiviert</h3>
+            </div>
+          </a>
+        </div>
+      </section>
+    </div>
+    <!--    Progressbar-->
+
+    <!-- End of Progressbar -->
+
+    <!-- Video -->
+    <div class="blog-card">
+      <div class="meta">
+        <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+        <ul class="details">
+          <li class="author"><a href="#">John Doe</a></li>
+          <li class="date">Aug. 24, 2015</li>
+          <li class="tags">
+            <ul>
+              <li><a href="#">Learn</a></li>
+              <li><a href="#">Code</a></li>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1>Learning to Code</h1>
+        <h2>Opening a door to the future</h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+        <p class="read-more">
+          <a href="#">Read More</a>
+        </p>
+      </div>
+    </div>
+    <div class="blog-card alt">
+      <div class="meta">
+        <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+        <ul class="details">
+          <li class="author"><a href="#">Jane Doe</a></li>
+          <li class="date">July. 15, 2015</li>
+          <li class="tags">
+            <ul>
+              <li><a href="#">Learn</a></li>
+              <li><a href="#">Code</a></li>
+              <li><a href="#">JavaScript</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1>Mastering the Language</h1>
+        <h2>Java is not the same as JavaScript</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+        <p class="read-more">
+          <a href="#">Read More</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Video Ende -->
+    <div class="ms-3 showreel" style="margin-top: 100px">
+      <h2>Unser neustes Projekt</h2>
+      <video controls muted class="w-75 pt-2">
         <source src="/img/golfvideoTest.mp4" type="video/mp4">
         <source src="/img/golfvideoTest.webm" type="video/webm">
       </video>
-    </div>
 
-    <h2 class="text-center">Die Idee hinter EHB - Film works</h2>
-    <p class="text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-      invidunt ut labore et
-      dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-      kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-      sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-      sanctus est Lorem ipsum dolor sit amet.</p>
-    <div class="d-flex justify-content-center">
-      <video loop autoplay muted class="w-75">
-        <source src="/img/demoVideoHomePage.mp4" type="video/mp4">
-      </video>
     </div>
-    <RouterLink class="h2 d-flex justify-content-center mt-3 text-decoration-none" to="/offer">Angebot
-    </RouterLink>
-    <div class="d-flex justify-content-center align-items-center flex-column ">
-    <div class="row w-100">
-      <div class="d-flex col-6 flex-column align-items-center">
-        <font-awesome-icon class="fa-4x" :icon="['fas', 'plug-circle-bolt']"/>
-        <p>Effizienz</p>
-      </div>
-      <div class="col-6 d-flex flex-column align-items-center">
-        <font-awesome-icon class="fa-4x" :icon="['fas', 'clock']"/>
-        <p>Up-To-Date</p>
-      </div>
+    <div>
+      <h2>Gefällt Ihnen unsere Arbeit?</h2>
+      <p>Dann kontaktieren Sie uns über das Formular am ender der Seite</p>
     </div>
-    <div class="row w-100 mt-5">
-      <div class="col-6 d-flex flex-column align-items-center">
-        <font-awesome-icon class="fa-4x" :icon="['fas', 'people-arrows']"/>
-        <p>Persönlich</p>
-      </div>
-      <div class="col-6 d-flex flex-column align-items-center">
-        <font-awesome-icon class="fa-4x" :icon="['fas', 'person-circle-plus']"/>
-        <p>Motiviert</p>
-      </div>
-    </div>
-  </div>
     <Contact></Contact>
   </div>
 </template>
