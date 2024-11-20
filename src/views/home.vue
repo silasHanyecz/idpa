@@ -30,7 +30,7 @@
         <div class="card-grid">
           <a class="card" href="#">
             <div class="card__background"
-                 style="background-image: url('img/efficiency.jpg')"></div>
+                 style="background-image: url('/img/efficiency.jpg')"></div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
               <h3 class="card__heading">Effizienz</h3>
@@ -38,7 +38,7 @@
           </a>
           <a class="card" href="#">
             <div class="card__background"
-                 style="background-image: url('img/upToDate.jpg')"></div>
+                 style="background-image: url('/img/upToDate.jpg')"></div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
               <h3 class="card__heading">Up-To-Date</h3>
@@ -46,7 +46,7 @@
           </a>
           <a class="card" href="#">
             <div class="card__background"
-                 style="background-image: url('img/personal.jpg')"></div>
+                 style="background-image: url('/img/personal.jpg')"></div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
               <h3 class="card__heading">Persönlich</h3>
@@ -54,7 +54,7 @@
           </a>
           <a class="card" href="#">
             <div class="card__background"
-                 style="background-image: url('img/motivated.jpg')"></div>
+                 style="background-image: url('/img/motivated.jpg')"></div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
               <h3 class="card__heading">Motiviert</h3>
