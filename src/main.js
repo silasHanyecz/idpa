@@ -9,7 +9,9 @@ import {fas} from "@fortawesome/free-solid-svg-icons"
 import {far} from "@fortawesome/free-regular-svg-icons"
 import './assets/main.scss';
 import './assets/home';
-import './assets/footer.scss'
+import './assets/footer.scss';
+import './assets/cards.scss';
+import './assets/video.scss';
 
 library.add(fas, far)
 const app = createApp(App)
