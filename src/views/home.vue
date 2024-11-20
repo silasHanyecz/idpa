@@ -68,70 +68,61 @@
     <!-- End of Progressbar -->
 
     <!-- Video -->
-    <div class="blog-card">
-      <div class="meta">
-        <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
-        <ul class="details">
-          <li class="author"><a href="#">John Doe</a></li>
-          <li class="date">Aug. 24, 2015</li>
-          <li class="tags">
-            <ul>
-              <li><a href="#">Learn</a></li>
-              <li><a href="#">Code</a></li>
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
+    <div class="ms-3" style="margin-top: 100px">
+      <h2>Neuste Projekte</h2>
+      <p class="mb-5">Das sind die neusten Projekte von EHB-Filmworks der letzten Wochen</p>
+      <div class="blog-container">
+        <div class="blog-card">
+          <div class="meta">
+            <div class="photo"
+                 style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+            <ul class="details">
+              <li class="author"><a href="#">Zum Video</a></li>
             </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="description">
-        <h1>Learning to Code</h1>
-        <h2>Opening a door to the future</h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-        <p class="read-more">
-          <a href="#">Read More</a>
-        </p>
-      </div>
-    </div>
-    <div class="blog-card alt">
-      <div class="meta">
-        <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
-        <ul class="details">
-          <li class="author"><a href="#">Jane Doe</a></li>
-          <li class="date">July. 15, 2015</li>
-          <li class="tags">
-            <ul>
-              <li><a href="#">Learn</a></li>
-              <li><a href="#">Code</a></li>
-              <li><a href="#">JavaScript</a></li>
+          </div>
+          <div class="description">
+            <h1>Golfplatz Meggen</h1>
+            <h2>vom 1.11.2024</h2>
+            <p>Es gibt sehr viele gute Gründe, Golf zu spielen. Golfen ist für jedes Alter geeignet, hält fit und bereitet...</p>
+            <p class="read-more">
+              <a href="#">Mehr zum Projekt</a>
+            </p>
+          </div>
+        </div>
+        <div class="blog-card alt">
+          <div class="meta">
+            <div class="photo"
+                 style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+            <ul class="details">
+              <li class="author"><a href="#">Jane Doe</a></li>
+              <li class="date">July. 15, 2015</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="#">Learn</a></li>
+                  <li><a href="#">Code</a></li>
+                  <li><a href="#">JavaScript</a></li>
+                </ul>
+              </li>
             </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="description">
-        <h1>Mastering the Language</h1>
-        <h2>Java is not the same as JavaScript</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-        <p class="read-more">
-          <a href="#">Read More</a>
-        </p>
+          </div>
+          <div class="description">
+            <h1>Mastering the Language</h1>
+            <h2>Java is not the same as JavaScript</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p class="read-more">
+              <a href="#">Read More</a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- Video Ende -->
-    <div class="ms-3 showreel" style="margin-top: 100px">
-      <h2>Unser neustes Projekt</h2>
-      <video controls muted class="w-75 pt-2">
-        <source src="/img/golfvideoTest.mp4" type="video/mp4">
-        <source src="/img/golfvideoTest.webm" type="video/webm">
-      </video>
-
-    </div>
-    <div>
+    <div class="ms-3" style="margin-top: 70px">
       <h2>Gefällt Ihnen unsere Arbeit?</h2>
       <p>Dann kontaktieren Sie uns über das Formular am ender der Seite</p>
     </div>
-    <Contact></Contact>
+    <Contact style="margin-top: 100px"></Contact>
   </div>
 </template>
 <script setup>
