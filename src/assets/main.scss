@@ -1,6 +1,16 @@
 #app {
     position: relative;
     color: black;
+    font: 20px Raleway;
+
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;              /* Höherer z-index als das Video */
+    background-color: rgba(255, 255, 255, 0.8); /* Optionaler Hintergrund für bessere Lesbarkeit */
 }
 
 /* Border X get width  */
@@ -11,7 +21,7 @@ div.borderXwidth a:before, div.borderXwidth a:after
     width: 0%;
     height: 2px;
     content: '';
-    background: #FFF;
+    background: #000000;
     transition: all 0.3s;
 }
 
@@ -35,9 +45,9 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
 
 div.container a
 {
-    color: #FFF;
+    color: #000000;
     text-decoration: none;
-    font: 20px Raleway;
+    font: 30px Raleway;
     margin: 0px 10px;
     padding: 10px 10px;
     position: relative;
@@ -75,3 +85,44 @@ div.container a
     border-left: 100px solid #555;
     border-bottom: 50px solid transparent;
 }
+
+.video-wrapper {
+    position: relative;
+    height: 100%;          /* Höhe des Video-Containers */
+    overflow: hidden;
+}
+.background-video {
+    position: fixed;        /* Video bleibt beim Scrollen sichtbar */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Zentriert das Video horizontal */
+    min-width: 100%;       /* Stellt sicher, dass das Video die Breite der Seite ausfüllt */
+    height: 100%;
+    z-index: -1;            /* Video bleibt im Hintergrund */
+}
+
+
+.text-overlay {
+    position: absolute;
+    font-size: 50px;    /* Absolut im Container positioniert */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Zentriert den Text */
+    color: white;
+    text-align: center;
+    z-index: 1;                    /* Über dem Video */
+}
+
+.removeDot {
+    list-style-type: none; /* Entfernt Aufzählungszeichen von allen <li> in der Liste */
+    padding: 0;            /* Optional: Entfernt Standard-Padding */
+    margin: 0;             /* Optional: Entfernt Standard-Margin */
+}
+
+
+
+
+
+/* Progressbar */
+
+
