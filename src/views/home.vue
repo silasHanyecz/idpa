@@ -29,32 +29,36 @@
       <section class="hero-section mt-4">
         <div class="card-grid">
           <a class="card" href="#">
-            <div class="card__background"
-                 style="background-image: url('/img/efficiency.jpg')"></div>
+            <div class="card__background" >
+              <img src="/img/efficiency.jpg" alt="efficiency">
+            </div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
               <h3 class="card__heading">Effizienz</h3>
             </div>
           </a>
           <a class="card" href="#">
-            <div class="card__background"
-                 style="background-image: url('/img/upToDate.jpg')"></div>
+            <div class="card__background" >
+              <img src="/img/upToDate.jpg" alt="uptoDateS">
+            </div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
               <h3 class="card__heading">Up-To-Date</h3>
             </div>
           </a>
           <a class="card" href="#">
-            <div class="card__background"
-                 style="background-image: url('/img/personal.jpg')"></div>
+            <div class="card__background" >
+              <img src="/img/personal.jpg" alt="personal">
+            </div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
               <h3 class="card__heading">Persönlich</h3>
             </div>
           </a>
           <a class="card" href="#">
-            <div class="card__background"
-                 style="background-image: url('/img/motivated.jpg')"></div>
+            <div class="card__background" >
+              <img src="/img/motivated.jpg" alt="motivated">
+            </div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
               <h3 class="card__heading">Motiviert</h3>
