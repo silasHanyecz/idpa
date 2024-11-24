@@ -26,7 +26,7 @@
             <router-link class="nav-link" to="/projects">Projekte</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/tutorial">Drohne</router-link>
+            <router-link class="nav-link" to="/drone">Drohne</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/info">Über uns</router-link>

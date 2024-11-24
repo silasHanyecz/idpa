@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
-    <h1 class="text-center mt-5">Angebot</h1>
-    <div class="row d-flex justify-content-center mt-5">
+  <div class="container" style="margin-top:10%;">
+    <h1>Angebot</h1>
+    <div class="row d-flex mt-5">
       <div class="offerbox col-1">
         <h2 class="text-center pt-3">One-Take</h2>
       </div>
@@ -12,7 +12,7 @@
         <h2 class="text-center pt-3">Event Edit</h2>
       </div>
     </div>
-    <div class="row d-flex justify-content-center align-items-center mt-5">
+    <div class="row d-flex align-items-center mt-5">
       <div class="col-auto d-flex align-items-center me-3">
         <div class="rectangle">
           <h2 class="text-center">Planung</h2>

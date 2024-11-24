@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" style="margin-top: 10%">
     <h1>Projekte</h1>
     <h3>Vergangene Projekte:</h3>
     <div>
