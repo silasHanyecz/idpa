@@ -13,6 +13,7 @@ import './assets/footer.scss';
 import './assets/cards.scss';
 import './assets/video.scss';
 import './assets/project.scss';
+import './assets/info.scss';
 
 library.add(fas, far)
 const app = createApp(App)
