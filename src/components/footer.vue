@@ -51,7 +51,7 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
               <h4>Follow Us</h4>
               <div class="footer-social-icon">
                 <a href="#"><font-awesome-icon :icon="['far', 'envelope']" style="color: white" /></a>
-                <a href="#"><font-awesome-icon icon="instagram" /></a>
+                <a href="#"><font-awesome-icon :icon="['fab', 'instagram']" style="color: white"/></a>
               </div>
             </div>
           </div>
