@@ -67,11 +67,7 @@
         </div>
       </section>
     </div>
-    <!--    Progressbar-->
 
-    <!-- End of Progressbar -->
-
-    <!-- Video -->
     <div class="ms-3" style="margin-top: 100px">
       <h2>Neuste Projekte</h2>
       <p class="mb-5">Das sind die neusten Projekte von EHB-Filmworks der letzten Wochen</p>
