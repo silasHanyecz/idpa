@@ -56,26 +56,26 @@ ul {
   color: #7e7e7e;
   line-height: 28px;
 }
-.footer-social-icon span {
-  color: #fff;
-  display: block;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 20px;
+
+.footer-social-icon {
+  display: inline-flex; /* Align icons on the same line */
+  gap: 10px; /* Adds space between icons without using margin */
+  margin-top: 10px;
+  /* Space between the text and the icons */
 }
+
 .footer-social-icon a {
-  color: #fff;
-  font-size: 16px;
-  margin-right: 15px;
+  display: inline-block;
+  font-size: 24px; /* Adjusts icon size */
+  text-decoration: none; /* Removes underline from links */
+  color: white; /* Ensures the icons are white */
+  transition: transform 0.2s ease; /* Adds a hover effect */
 }
-.footer-social-icon i {
-  height: 40px;
-  width: 40px;
-  text-align: center;
-  line-height: 38px;
-  border-radius: 50%;
+
+.footer-social-icon a:hover {
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
 }
+
 .footer-widget-heading h3 {
   color: #fff;
   font-size: 20px;
