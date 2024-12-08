@@ -9,7 +9,7 @@
         <div class="card-grid">
           <a class="card" @mouseover="data.showReelText=true" @mouseleave="data.showReelText=false">
             <div class="card__background">
-              <img src="/img/person.jpg" alt="efficiency">
+              <img src="/img/reel.jpg" alt="efficiency">
             </div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
@@ -18,7 +18,7 @@
           </a>
           <a class="card" @mouseover="data.showCinematicText=true" @mouseleave="data.showCinematicText=false">
             <div class="card__background">
-              <img src="/img/ampel.jpg" alt="uptoDateS">
+              <img src="/img/cinematic.jpg" alt="uptoDateS">
             </div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
@@ -27,7 +27,7 @@
           </a>
           <a class="card" @mouseover="data.showDroneText=true" @mouseleave="data.showDroneText=false">
             <div class="card__background">
-              <img src="/img/autooffer.jpg" alt="personal">
+              <img src="/img/droneshots.jpg" alt="personal">
             </div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
